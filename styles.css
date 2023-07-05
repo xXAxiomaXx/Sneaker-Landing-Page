@@ -11,7 +11,7 @@
   scroll-behavior: smooth;
 }
 
-@font-face{
+@font-face {
   font-family: Futura ND;
   src: url("./assets/futura-nd-bold.ttf");
 }
@@ -45,6 +45,11 @@ section {
   height: 7%;
 }
 
+.navbar .cart {
+  font-size: 3rem;
+  margin-left: 10rem;
+}
+
 .navbar a {
   font-size: 2rem;
   font-weight: 600;
@@ -59,12 +64,15 @@ section {
   height: 100vh;
   justify-items: center;
   background: black;
+  background-image: url(./assets/Sem\ título.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home-content {
   display: block;
   align-items: center;
-  justify-items: center;
+  justify-content: space-between;
   text-align: center;
 }
 
@@ -86,34 +94,23 @@ section {
   margin-top: 2rem;
   cursor: pointer;
   border-radius: 200rem;
-  padding: 0.6rem;
+  padding: 0.8rem;
   color: black;
   background-color: white;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
 
-.btn:hover{
+.btn:hover {
   transform: scale(1.1);
   background-color: black;
   color: white;
 }
 
-.home-img{
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(15,15,15,0) 68%);
-  height: 80%;
-  width: 50%;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.home-img img{
-  width: 70%;
-  margin-left: 10rem;
+.home-img img {
+  width: 60%;
+  margin-left: 30rem;
   margin-bottom: 10rem;
-  transform: rotate(18deg);
+  transform: rotate(13deg);
 }
 .heading {
   text-align: center;
