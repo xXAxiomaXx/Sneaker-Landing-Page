@@ -21,6 +21,10 @@ html {
   font-size: 62.5%;
 }
 
+body{
+  width:1980px;
+}
+
 section {
   min-height: 100vh;
   padding: 5rem 9% 2rem;
